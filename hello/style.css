@@ -1,0 +1,27 @@
+/* Extrnal Sheet */
+
+
+/* Selecting the html tag using the tag name */
+div {
+    background-color: lightblue;
+    color: darkblue;
+}
+/* Selecting the html element using the class name */
+.demo-class {
+    background-color: yellow;
+    color: black;
+}
+
+.lg {
+    font-size: larger;
+}
+.bg {
+    background-color: blue;
+}
+
+
+/* Selecting the html element using the id */
+#dem-id  {
+    background-color: lightgreen;
+    color: darkgreen;
+}

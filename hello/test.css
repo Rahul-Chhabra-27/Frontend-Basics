@@ -1,0 +1,28 @@
+/* Universal selector */
+
+* {
+    color : grey    
+}
+
+#id-selector {
+    color: green;
+}
+
+h1 {
+    color : blue
+}
+
+.class-selector {
+    color: red;
+} 
+.div-1 {
+    color : blue;
+}
+div {
+    color : red;
+    text-align: center;
+    font-size: 2rem;
+    border: 10px black solid;
+    margin : 10px;
+    padding: 10px;
+}
