@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="process.php" method="post">
+        <!-- 1. Creating a text field for the name of the user -->
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" 
+            placeholder="Enter you name" value="Rahul Chhabra">
+        </div>
+        <br>
+        <!-- 2. Input for email address -->
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" value="test@mail.com ">
+        </div>
+        <br>
+        <!-- 3. Input for Password -->
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="enter your password">
+        </div>
+        <br>
+        <!-- 4. List Of Products -->
+        <div>
+            <label for="produts">Products</label>
+            <select name="products" id="products">
+                <option value="laptop">Laptop</option>
+                <option value="mobile" selected>Mobile</option>
+                <option value="tablet" selected>Tablet</option>
+                <option value="desktop">Desktop</option>
+                <option value="smartwatch">Smartwatch</option>
+            </select>
+        </div>
+        <br>
+        <!-- 5. Text Area for feedback -->
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <!-- 6. Radio  -->
+        <h2>What is your favorite programming language?</h2>
+        <input type="radio" id="html" name="fav_language" value="HTML" checked>
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+
+        <!-- Submit button -->
+        <div>
+            <input type="submit" value="Submit Form">
+        </div>
+        
+    </form>
+</body>
+</html>
