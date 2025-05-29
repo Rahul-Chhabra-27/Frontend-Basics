@@ -116,4 +116,11 @@ fruits.forEach((fruit,index) => {
     console.log("John" + " likes " + fruit + " at index " + index);
 })
 
+// revised deadline ==> before 10 AM on upcoming Tuesday
+// Milestone 1
+//      Trello App
 
+// Milestone 2
+//      AuthMicroservice (Info available in the chat)
+// Milestone 3
+//      ADD testing to the Auth Microservice.
