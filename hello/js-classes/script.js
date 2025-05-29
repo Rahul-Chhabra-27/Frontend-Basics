@@ -83,3 +83,14 @@ let res =  (function sumOfThreeIntegers (a,b,c) {
 })(12,24,36);
 
 console.log(res);
+
+
+// Datatypes in JavaScript
+
+// 1. Number (12.5) (12) (11.3456)
+// 2. String ('Hello')  ('a') => string & ("abc") ==> string
+// 3. Boolean (true or false)
+// 4. Undefined (variable is declared but not assigned any value)
+// 5. Null (variable is declared and assigned to null)
+// 6. Object (complex data type)
+// 7. NAN
