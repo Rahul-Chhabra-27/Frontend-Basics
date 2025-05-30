@@ -1,0 +1,16 @@
+.post {
+    color : grey;
+    text-align: center;
+    font-size: 1rem;
+    border: 5px black solid;
+    margin : 10px;
+    padding: 10px;
+}
+
+.body {
+    color: pink;
+}
+
+.title {
+    color : lightskyblue
+}
